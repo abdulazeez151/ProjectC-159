@@ -24,7 +24,7 @@ AFRAME.registerComponent("store", {
         url: "./assets/posters/outer-space-poster.jpg"
       }
     ];
-    let prevoiusXPosition = -60;
+    let prevoiusXPosition = -62.5;
 
     for (var item of postersRef) {
       const posX = prevoiusXPosition + 25;
